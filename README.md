@@ -5,7 +5,6 @@ Simple Nightscout status module for Waybar written in Python.
 ```
 "custom/ns": {
         "exec": "python3 $HOME/.config/waybar/custom_modules/ns.py",
-        "return-type": "python",
         "interval": 60,
     }
 ```
