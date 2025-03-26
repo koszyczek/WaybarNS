@@ -23,6 +23,6 @@ if "bgs" in data and len(data["bgs"]) > 0:
     bgdelta = bg_data.get("bgdelta")
     direction = bg_data.get("direction")
     unicodearrows = arrows.get(direction, "❓")
-    #example: print(f"{sgv} {unicodearrows} IOB: {iob} COB: {cob}")
+    #example: print(f"{sgv} {unicodearrows} | IOB: {iob} COB: {cob}")
 else:
     print("check if nightscout is up")
